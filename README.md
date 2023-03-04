@@ -10,6 +10,8 @@ draft: false
 - Stroke (STK)
 - Shotmaking (SMK)
 - Position (POS)
+    * Direction
+    * Speed
 - Kicking (KIK)
 - Banking (BNK)
 - Safeties (SFT)
@@ -43,6 +45,20 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Added: 2023/02/09
 - Notes: Tends to be overcut.
 - Diagram: SMK003.svg
+
+## SMK004
+- Desc: Weird short-side thinnish cut shot near end rail.
+- Score: Shots made with position / 10.
+- Source: Self
+- Added: 2023/02/13
+- Diagram: SMK004.svg
+
+## SMK005
+- Desc: Long cut shots into opposite corner.
+- Score: Shots made with position / 10.
+- Source: Self
+- Added: 2023/03/04
+- Diagram: SMK005.svg
 
 
 # Kicking
