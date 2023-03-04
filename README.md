@@ -22,6 +22,8 @@ draft: false
 ## SFT001
 Billiard University Exam 2 Safeties Drill (2023/02/08)
 
+![SFT001](./SFT001.svg)
+
 
 # Shotmaking
 ## SMK001
@@ -29,14 +31,18 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Score: Shots made with position / 10.
 - Source: Self
 - Added: 2023/02/06
-- Diagram: SMK001.svg
+
+![SMK001](./SMK001.svg)
+
 
 ## SMK002
 - Desc: Back cut near pocket plus two- or three-rail full table position.
 - Score: Shots made with position / 10.
 - Source: Self
 - Added: 2023/02/07
-- Diagram: SMK002.svg
+
+![SMK002](./SMK002.svg)
+
 
 ## SMK003
 - Desc: Big off-angle follow shot.
@@ -44,21 +50,27 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Source: Self
 - Added: 2023/02/09
 - Notes: Tends to be overcut.
-- Diagram: SMK003.svg
+
+![SMK003](./SMK003.svg)
+
 
 ## SMK004
 - Desc: Weird short-side thinnish cut shot near end rail.
 - Score: Shots made with position / 10.
 - Source: Self
 - Added: 2023/02/13
-- Diagram: SMK004.svg
+
+![SMK004](./SMK004.svg)
+
 
 ## SMK005
 - Desc: Long cut shots into opposite corner.
 - Score: Shots made with position / 10.
 - Source: Self
 - Added: 2023/03/04
-- Diagram: SMK005.svg
+
+![SMK005](./SMK005.svg)
+
 
 
 # Kicking
@@ -67,4 +79,5 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Score: # successful
 - Source: [Billiard University Exam 2](https://billiarduniversity.org/testing/exams/)
 - Added: 2023/02/09
-- Diagram: KIK001.svg
+
+![KIK001](./KIK001.svg)
