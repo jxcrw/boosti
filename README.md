@@ -72,6 +72,16 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 ![SMK005](./SMK005.svg)
 
 
+## SMK006
+- Desc: Tricky not-quite-straight-or-cut shot with follow for position.
+- Score: Shots made with position / 10.
+- Source: Self
+- Added: 2023/03/05
+- Notes: Tends to be overcut.
+
+![SMK006](./SMK006.svg)
+
+
 
 # Kicking
 ## KIK001
