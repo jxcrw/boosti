@@ -82,6 +82,15 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 ![SMK006](./SMK006.svg)
 
 
+## SMK007
+- Desc: 2D to 2D cut shot that comes up in drills I like.
+- Score: Shots made with position / 10.
+- Source: Self
+- Added: 2023/04/02
+
+![SMK007](./SMK007.svg)
+
+
 
 # Kicking
 ## KIK001
