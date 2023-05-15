@@ -7,26 +7,22 @@ draft: false
 # Pool Notes
 
 ## Session Workflow
-- Set up table.
-- Warm up body.
-- Warm up mind.
+- Prep table.
+- Prep body/mind.
 - Sesh (practice/matches).
 
-
-### Body Warmup
+### Body Prep
 - Warm up hands/arms/shoulders + light stretch.
 - Warm up lower body + light stretch.
 
-
-### Mind Warmup
-- Acknowledge:
-    * Practice count and practice hours.
+### Mind Prep
+- Set expectations by acknowledging:
+    * Calmonth, day count, total hours.
     * Day's accomplishments (win/meh/flub).
-    * Any other personal feelings.
-    * Set expectations for session accordingly.
-- State that you will be curious, try to learn, and enjoy/focus on process over results.
-- State that you have time for the session and will feel time-relaxed.
-- State that you want to be here.
+    * Any other personal feelings/logistics.
+- Be calm, be curious, trust the process, keep it moving.
+- You have time, take your time.
+- You want to be here.
 
 
 
