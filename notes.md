@@ -22,7 +22,8 @@ draft: false
     * Any other personal feelings/logistics.
 - Be calm, be curious, trust the process, keep it moving.
 - You have time, take your time.
-- You want to be here.
+- You should be here right now.
+- Get pool-ripped.
 
 
 
