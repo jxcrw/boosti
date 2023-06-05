@@ -1,9 +1,3 @@
----
-title: "Pool Notes"
-date: 2023-02-20T06:09:15-07:00
-draft: false
----
-
 # Pool Notes
 
 ## Session Workflow

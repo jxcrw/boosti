@@ -1,10 +1,4 @@
----
-title: "Pool Drills"
-date: 2023-02-08T06:09:15-07:00
-draft: false
----
-
-# Pool Drills
+# Pool
 
 # Game Areas
 - Stroke (STK)
