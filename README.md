@@ -85,6 +85,26 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 ![SMK007](./SMK007.svg)
 
 
+## SMK008
+- Desc: Small angle backcuts with big follow (long rail).
+- Score: Attempts required to get 10 successes.
+- Source: Self
+- Added: 2023/06/18
+- Notes: Tends to be overcut.
+
+![SMK008](./SMK008.svg)
+
+
+## SMK009
+- Desc: Small angle backcuts with big follow (short rail).
+- Score: Attempts required to get 10 successes.
+- Source: Self
+- Added: 2023/06/18
+- Notes: Tends to be overcut.
+
+![SMK009](./SMK009.svg)
+
+
 
 # Kicking
 ## KIK001
