@@ -3,21 +3,34 @@
 # Game Areas
 - Stroke (STK)
 - Shotmaking (SMK)
-- Position (POS)
-    * Direction
+- Position (PSN)
     * Speed
-- Kicking (KIK)
+    * Direction
+    * Patterns
 - Banking (BNK)
+- Kicking (KIK)
 - Safeties (SFT)
 - Breaking (BRK)
 - Jumping (JMP)
 
-# Safeties
-## SFT001
-Billiard University Exam 2 Safeties Drill (2023/02/08)
+<!-- MarkdownTOC levels="1,2" -->
 
-![SFT001](./SFT001.svg)
+- [Shotmaking](#shotmaking)
+    + [SMK001](#smk001)
+    + [SMK002](#smk002)
+    + [SMK003](#smk003)
+    + [SMK004](#smk004)
+    + [SMK005](#smk005)
+    + [SMK006](#smk006)
+    + [SMK007](#smk007)
+    + [SMK008](#smk008)
+    + [SMK009](#smk009)
+- [Kicking](#kicking)
+    + [KIK001](#kik001)
+- [Safeties](#safeties)
+    + [SFT001](#sft001)
 
+<!-- /MarkdownTOC -->
 
 # Shotmaking
 ## SMK001
@@ -114,3 +127,11 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Added: 2023/02/09
 
 ![KIK001](./KIK001.svg)
+
+
+
+# Safeties
+## SFT001
+Billiard University Exam 2 Safeties Drill (2023/02/08)
+
+![SFT001](./SFT001.svg)
