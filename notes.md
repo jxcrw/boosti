@@ -1,23 +1,15 @@
 # Pool Notes
 
 ## Session Workflow
-- Prep table.
+- Prep tools.
 - Prep body/mind.
 - Sesh (practice/matches).
 
 ### Body Prep
-- Warm up hands/arms/shoulders + light stretch.
-- Warm up lower body + light stretch.
+- Full body warm up + light stretch.
 
 ### Mind Prep
-- Set expectations by acknowledging:
-    * Calmonth, day count, total hours.
-    * Day's accomplishments (win/meh/flub).
-    * Any other personal feelings/logistics.
-- Be calm, be curious, trust the process, keep it moving.
-- You have time, take your time.
-- You should be here right now.
-- Get pool-ripped.
+- 無信意残 初悠連超
 
 
 ## Practice Routine
