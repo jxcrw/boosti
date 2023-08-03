@@ -9,7 +9,7 @@
 - Full body warm up + light stretch.
 
 ### Mind Prep
-- 無信意残 初悠連超
+- 無意信残 悠初連超
 
 
 ## Practice Routine
