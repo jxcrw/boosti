@@ -1,38 +1,36 @@
-# Pool
+# Boosti
 
-# Game Areas
-- Stroke (STK)
-- Shotmaking (SMK)
-- Position (PSN)
-    * Speed
-    * Direction
-    * Patterns
-- Banking (BNK)
-- Kicking (KIK)
-- Safeties (SFT)
-- Breaking (BRK)
-- Jumping (JMP)
+<!-- MarkdownTOC levels="1" -->
 
-<!-- MarkdownTOC levels="1,2" -->
-
-- [Shotmaking](#shotmaking)
-    + [SMK001](#smk001)
-    + [SMK002](#smk002)
-    + [SMK003](#smk003)
-    + [SMK004](#smk004)
-    + [SMK005](#smk005)
-    + [SMK006](#smk006)
-    + [SMK007](#smk007)
-    + [SMK008](#smk008)
-    + [SMK009](#smk009)
-- [Kicking](#kicking)
-    + [KIK001](#kik001)
-- [Safeties](#safeties)
-    + [SFT001](#sft001)
+- [Workflow](#workflow)
+- [`STK` Stroke](#stk-stroke)
+- [`SMK` Shotmaking](#smk-shotmaking)
+- [`PSN` Position](#psn-position)
+- [`BNK` Banking](#bnk-banking)
+- [`KIK` Kicking](#kik-kicking)
+- [`SFT` Safeties](#sft-safeties)
+- [`BRK` Breaking](#brk-breaking)
+- [`JMP` Jumping](#jmp-jumping)
 
 <!-- /MarkdownTOC -->
 
-# Shotmaking
+# Workflow
+- Prep gear.
+- Prep body: warmup + light stretch.
+- Prep mind: 無意信感 悠謙連超.
+- Session (practice/matches).
+
+
+## Practice
+- WMP
+- STK
+- SMK
+- PSN
+- SPZ
+
+
+# `STK` Stroke
+# `SMK` Shotmaking
 ## SMK001
 - Desc: Thinnish cut shot down end rail plus full table position.
 - Score: Shots made with position / 10.
@@ -118,8 +116,13 @@
 ![SMK009](./SMK009.svg)
 
 
+# `PSN` Position
+- Speed
+- Direction
+- Patterns
 
-# Kicking
+# `BNK` Banking
+# `KIK` Kicking
 ## KIK001
 - Desc: Kick each OB one rail.
 - Score: # successful
@@ -130,8 +133,11 @@
 
 
 
-# Safeties
+# `SFT` Safeties
 ## SFT001
 Billiard University Exam 2 Safeties Drill (2023/02/08)
 
 ![SFT001](./SFT001.svg)
+
+# `BRK` Breaking
+# `JMP` Jumping
