@@ -2,7 +2,6 @@
 
 <!-- MarkdownTOC levels="1" -->
 
-- [Workflow](#workflow)
 - [`STK` Stroke](#stk-stroke)
 - [`SMK` Shotmaking](#smk-shotmaking)
 - [`PSN` Position](#psn-position)
@@ -13,13 +12,6 @@
 - [`JMP` Jumping](#jmp-jumping)
 
 <!-- /MarkdownTOC -->
-
-# Workflow
-- Prep gear.
-- Prep body: warmup + light stretch.
-- Prep mind: 無悠感像 意謙連超.
-- Session (practice/matches).
-
 
 ## Practice
 - WMP
