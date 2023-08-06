@@ -17,7 +17,7 @@
 # Workflow
 - Prep gear.
 - Prep body: warmup + light stretch.
-- Prep mind: 無意信感 悠謙連超.
+- Prep mind: 無悠感像 意謙連超.
 - Session (practice/matches).
 
 
