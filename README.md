@@ -41,7 +41,7 @@
 ## `smk` Shotmaking
 ### drn1
 - Desc: Short rail hero cut shot (L+R).
-- Score: # of attempts to complete.
+- Score: # of shots to complete.
 - Variants: Follow, draw
 - Source: Self
 - Added: 2023/08/16
