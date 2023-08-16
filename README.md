@@ -1,38 +1,56 @@
-# Boosti
+# Pool
 
-<!-- MarkdownTOC levels="1" -->
+<!-- MarkdownTOC levels="1,2" -->
 
-- [`STK` Stroke](#stk-stroke)
-- [`SMK` Shotmaking](#smk-shotmaking)
-- [`PSN` Position](#psn-position)
-- [`BNK` Banking](#bnk-banking)
-- [`KIK` Kicking](#kik-kicking)
-- [`SFT` Safeties](#sft-safeties)
-- [`BRK` Breaking](#brk-breaking)
-- [`JMP` Jumping](#jmp-jumping)
+- [Practice](#practice)
+- [Stroke](#stroke)
+    + [`prz` Pureness](#prz-pureness)
+    + [`spd` Speed](#spd-speed)
+    + [`pwr` Power](#pwr-power)
+- [Core](#core)
+    + [`psn` Position](#psn-position)
+    + [`smk` Shotmaking](#smk-shotmaking)
+    + [`drn` Direction](#drn-direction)
+    + [`lyt` Layout](#lyt-layout)
+- [Special](#special)
+    + [`bnk` Banks](#bnk-banks)
+    + [`kik` Kicks](#kik-kicks)
+    + [`sft` Safeties](#sft-safeties)
+    + [`brk` Breaks](#brk-breaks)
+    + [`jmp` Jumps](#jmp-jumps)
 
 <!-- /MarkdownTOC -->
 
-## Practice
-- WMP
-- STK
-- SMK
-- PSN
-- SPZ
+# Practice
+- Warmup
+- Stroke
+- Core
+- Special
 
 
-# `STK` Stroke
-# `SMK` Shotmaking
-## SMK001
-- Desc: Thinnish cut shot down end rail plus full table position.
-- Score: Shots made with position / 10.
+
+# Stroke
+## `prz` Pureness
+## `spd` Speed
+## `pwr` Power
+
+
+
+# Core
+## `psn` Position
+## `smk` Shotmaking
+### drn1
+- Desc: Short rail hero cut shot (L+R).
+- Score: # of attempts to complete.
+- Variants: Follow, draw
 - Source: Self
-- Added: 2023/02/06
+- Added: 2023/08/16
+- Notes: Previously SMK001, added 2023/02/06.
 
-![SMK001](./SMK001.svg)
+![drn1](./drill/core/drn/drn1.svg)
 
 
-## SMK002
+### SMK002
 - Desc: Back cut near pocket plus two- or three-rail full table position.
 - Score: Shots made with position / 10.
 - Source: Self
@@ -41,7 +59,7 @@
 ![SMK002](./SMK002.svg)
 
 
-## SMK003
+### SMK003
 - Desc: Big off-angle follow shot.
 - Score: Shots made with position / 10.
 - Source: Self
@@ -51,7 +69,7 @@
 ![SMK003](./SMK003.svg)
 
 
-## SMK004
+### SMK004
 - Desc: Weird short-side thinnish cut shot near end rail.
 - Score: Shots made with position / 10.
 - Source: Self
@@ -60,7 +78,7 @@
 ![SMK004](./SMK004.svg)
 
 
-## SMK005
+### SMK005
 - Desc: Long cut shots into opposite corner.
 - Score: Shots made with position / 10.
 - Source: Self
@@ -69,7 +87,7 @@
 ![SMK005](./SMK005.svg)
 
 
-## SMK006
+### SMK006
 - Desc: Tricky not-quite-straight-or-cut shot with follow for position.
 - Score: Shots made with position / 10.
 - Source: Self
@@ -79,7 +97,7 @@
 ![SMK006](./SMK006.svg)
 
 
-## SMK007
+### SMK007
 - Desc: 2D to 2D cut shot that comes up in drills I like.
 - Score: Shots made with position / 10.
 - Source: Self
@@ -88,7 +106,7 @@
 ![SMK007](./SMK007.svg)
 
 
-## SMK008
+### SMK008
 - Desc: Small angle backcuts with big follow (long rail).
 - Score: Attempts required to get 10 successes.
 - Source: Self
@@ -98,7 +116,7 @@
 ![SMK008](./SMK008.svg)
 
 
-## SMK009
+### SMK009
 - Desc: Small angle backcuts with big follow (short rail).
 - Score: Attempts required to get 10 successes.
 - Source: Self
@@ -107,15 +125,16 @@
 
 ![SMK009](./SMK009.svg)
 
+## `drn` Direction
+## `lyt` Layout
 
-# `PSN` Position
-- Speed
-- Direction
-- Patterns
 
-# `BNK` Banking
-# `KIK` Kicking
-## KIK001
+
+
+# Special
+## `bnk` Banks
+## `kik` Kicks
+### KIK001
 - Desc: Kick each OB one rail.
 - Score: # successful
 - Source: [Billiard University Exam 2](https://billiarduniversity.org/testing/exams/)
@@ -125,11 +144,11 @@
 
 
 
-# `SFT` Safeties
-## SFT001
+## `sft` Safeties
+### SFT001
 Billiard University Exam 2 Safeties Drill (2023/02/08)
 
 ![SFT001](./SFT001.svg)
 
-# `BRK` Breaking
-# `JMP` Jumping
+## `brk` Breaks
+## `jmp` Jumps
