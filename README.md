@@ -39,6 +39,14 @@
 
 # Core
 ## `psn` Position
+- Name: IPAT1 Endless
+- Desc: Endless big area position.
+- Score: first|max
+- Source: IPAT1
+- Added: 2023/08/16
+
+![psn1](./drill/core/psn/psn1.svg)
+
 ## `smk` Shotmaking
 
 
