@@ -69,6 +69,17 @@
 ![big2](./drill/core/psn/big2.svg)
 
 
+### lil2
+- Name: IPAT2 Longcut
+- Desc: Endless longcuts, BIH between sides.
+- Score: first|max
+- Source: IPAT2
+- Added: 2023/08/16
+
+![lil2](./drill/core/psn/lil2.svg)
+
+
+
 ## `smk` Shotmaking
 
 
