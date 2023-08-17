@@ -75,7 +75,7 @@
 
 ## `drn` Direction
 ### drn1
-- Name: Short Cut Hero
+- Name: Short Cut Wheel
 - Desc: Short rail hero cut shot (L+R).
 - Score: num_shots
 - Variants: Follow, draw
