@@ -52,8 +52,9 @@
 
 ## `drn` Direction
 ### drn1
+- Name: Short Cut Hero
 - Desc: Short rail hero cut shot (L+R).
-- Score: # of shots to complete.
+- Score: num_shots
 - Variants: Follow, draw
 - Source: Self
 - Added: 2023/08/16
