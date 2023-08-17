@@ -59,6 +59,15 @@
 ![psn2](./drill/core/psn/psn2.svg)
 
 
+### psn3
+- Name: IPAT1 Big Head
+- Desc: Endless big area position.
+- Score: first|max
+- Source: IPAT1
+- Added: 2023/08/16
+
+![psn3](./drill/core/psn/psn3.svg)
+
 
 ## `smk` Shotmaking
 
