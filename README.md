@@ -39,6 +39,7 @@
 
 # Core
 ## `psn` Position
+### psn1
 - Name: IPAT1 Endless
 - Desc: Endless big area position.
 - Score: first|max
@@ -47,7 +48,20 @@
 
 ![psn1](./drill/core/psn/psn1.svg)
 
+
+### psn2
+- Name: L Drill
+- Desc: Endless small area position.
+- Score: first|max
+- Source: IPAT2
+- Added: 2023/08/16
+
+![psn2](./drill/core/psn/psn2.svg)
+
+
+
 ## `smk` Shotmaking
+
 
 
 ## `drn` Direction
