@@ -40,8 +40,8 @@
 # Core
 ## `psn` Position
 ### big1
-- Name: IPAT1 Endless
-- Desc: Endless big area position.
+- Name: Centershots 1
+- Desc: Endless centertable shots.
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
@@ -51,7 +51,7 @@
 
 ### lil1
 - Name: L Drill
-- Desc: Endless small area position.
+- Desc: Endless small cutshots.
 - Score: first|max
 - Source: IPAT2
 - Added: 2023/08/16
@@ -60,8 +60,8 @@
 
 
 ### big2
-- Name: IPAT1 Big Head
-- Desc: Endless big area position.
+- Name: Headcuts 1
+- Desc: Endless headstring cutshots.
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
@@ -70,7 +70,7 @@
 
 
 ### lil2
-- Name: IPAT2 Longcut
+- Name: Longcuts 1
 - Desc: Endless longcuts, BIH between sides.
 - Score: first|max
 - Source: IPAT2
@@ -86,7 +86,7 @@
 
 ## `drn` Direction
 ### drn1
-- Name: Short Cut Wheel
+- Name: Shortcut Wheel
 - Desc: Short rail hero cut shot (L+R).
 - Score: num_shots
 - Variants: Follow, draw
