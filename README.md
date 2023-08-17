@@ -79,6 +79,16 @@
 ![lil2](./drill/core/psn/lil2.svg)
 
 
+### big3
+- Name: Longitude 1
+- Desc: Endless longitude cutshots.
+- Score: first|max
+- Source: IPAT1
+- Added: 2023/08/16
+
+![big3](./drill/core/psn/big3.svg)
+
+
 
 ## `smk` Shotmaking
 
