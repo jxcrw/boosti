@@ -39,34 +39,34 @@
 
 # Core
 ## `psn` Position
-### psn1
+### big1
 - Name: IPAT1 Endless
 - Desc: Endless big area position.
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
 
-![psn1](./drill/core/psn/psn1.svg)
+![big1](./drill/core/psn/big1.svg)
 
 
-### psn2
+### lil1
 - Name: L Drill
 - Desc: Endless small area position.
 - Score: first|max
 - Source: IPAT2
 - Added: 2023/08/16
 
-![psn2](./drill/core/psn/psn2.svg)
+![lil1](./drill/core/psn/lil1.svg)
 
 
-### psn3
+### big2
 - Name: IPAT1 Big Head
 - Desc: Endless big area position.
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
 
-![psn3](./drill/core/psn/psn3.svg)
+![big2](./drill/core/psn/big2.svg)
 
 
 ## `smk` Shotmaking
