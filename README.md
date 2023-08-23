@@ -33,9 +33,28 @@
 | Sat | `~` |  `d`  | `bd` |     |
 
 
+<!-- ### code
+- Name:
+- Desc:
+- Score:
+- Source:
+- Date:
+- Image:
+
+![img](./drill/blank.svg) -->
+
 
 # Stroke
 ## `pur` Pure
+### pur1
+- Name: Pure Follow 1
+- Desc: Follow into pocket.
+- Score: num_shots
+- Source: IPAT1
+- Date: 2023/02/01
+- Image: <br><br>![pur1](./drill/stroke/pur/pur1.svg)
+
+
 ## `spd` Speed
 ## `pwr` Power
 
