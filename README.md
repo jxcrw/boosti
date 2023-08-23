@@ -2,7 +2,7 @@
 
 <!-- MarkdownTOC levels="1,2" -->
 
-- [Practice](#practice)
+- [Routine](#routine)
 - [Stroke](#stroke)
     + [`pur` Pure](#pur-pure)
     + [`spd` Speed](#spd-speed)
@@ -21,11 +21,16 @@
 
 <!-- /MarkdownTOC -->
 
-# Practice
-- Warmup
-- Stroke
-- Core
-- Special
+# Routine
+|     | WMP |  STK  | COR  | SPL |
+|:---:|:---:|:-----:|:----:|:---:|
+| Sun | `~` | `fsd` | `b`  |  –  |
+| Mon | `~` |  `f`  | `ls` |     |
+| Tue | `~` |  `s`  | `bd` |     |
+| Wed | `~` |  `d`  | `ls` |     |
+| Thu | `~` |  `f`  | `bd` |     |
+| Fri | `~` |  `s`  | `ls` |     |
+| Sat | `~` |  `d`  | `bd` |     |
 
 
 
