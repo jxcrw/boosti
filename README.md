@@ -4,14 +4,13 @@
 
 - [Practice](#practice)
 - [Stroke](#stroke)
-    + [`prz` Pureness](#prz-pureness)
+    + [`pur` Pure](#pur-pure)
     + [`spd` Speed](#spd-speed)
     + [`pwr` Power](#pwr-power)
 - [Core](#core)
     + [`psn` Position](#psn-position)
     + [`smk` Shotmaking](#smk-shotmaking)
     + [`drn` Direction](#drn-direction)
-    + [`lyt` Layout](#lyt-layout)
 - [Special](#special)
     + [`bnk` Banks](#bnk-banks)
     + [`kik` Kicks](#kik-kicks)
@@ -31,7 +30,7 @@
 
 
 # Stroke
-## `prz` Pureness
+## `pur` Pure
 ## `spd` Speed
 ## `pwr` Power
 
@@ -40,23 +39,13 @@
 # Core
 ## `psn` Position
 ### big1
-- Name: Centershots 1
-- Desc: Endless centertable shots.
+- Name: Center 1
+- Desc: Endless center table shots.
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
 
 ![big1](./drill/core/psn/big1.svg)
-
-
-### lil1
-- Name: L Drill
-- Desc: Endless small cutshots.
-- Score: first|max
-- Source: IPAT2
-- Added: 2023/08/16
-
-![lil1](./drill/core/psn/lil1.svg)
 
 
 ### big2
@@ -69,6 +58,27 @@
 ![big2](./drill/core/psn/big2.svg)
 
 
+### big3
+- Name: Longitude 1
+- Desc: Endless longitude cutshots.
+- Score: first|max
+- Source: IPAT1
+- Added: 2023/08/16
+
+![big3](./drill/core/psn/big3.svg)
+
+
+### lil1
+- Name: L Drill
+- Desc: Endless small cutshots.
+- Score: first|max
+- Source: IPAT2
+- Added: 2023/08/16
+
+![lil1](./drill/core/psn/lil1.svg)
+
+
+
 ### lil2
 - Name: Longcuts 1
 - Desc: Endless longcuts, BIH between sides.
@@ -79,14 +89,7 @@
 ![lil2](./drill/core/psn/lil2.svg)
 
 
-### big3
-- Name: Longitude 1
-- Desc: Endless longitude cutshots.
-- Score: first|max
-- Source: IPAT1
-- Added: 2023/08/16
 
-![big3](./drill/core/psn/big3.svg)
 
 
 
@@ -107,7 +110,6 @@
 ![drn1](./drill/core/drn/drn1.svg)
 
 
-## `lyt` Layout
 
 
 
