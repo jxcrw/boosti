@@ -36,12 +36,11 @@
 <!-- ### code
 - Name:
 - Desc:
+- Script:
 - Score:
-- Source:
 - Date:
-- Image:
-
-![img](./drill/blank.svg) -->
+- Source:
+- Image: <br><br>![img](./drill/blank.svg) -->
 
 
 # Stroke
@@ -55,7 +54,18 @@
 - Image: <br><br>![pur1](./drill/stroke/pur/pur1.svg)
 
 
+
 ## `spd` Speed
+### spd1
+- Name: Touch of Follow 1
+- Desc: Straight follow, must pass prev shot and overlap 3-ball region beyond.
+- Score: num_shots
+- Source: Self
+- Date: 2023/08/23
+- Image: <br><br>![spd1](./drill/stroke/spd/spd1.svg)
+
+
+
 ## `pwr` Power
 
 
