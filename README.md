@@ -54,6 +54,33 @@
 - Image: <br><br>![pur1](./drill/stroke/pur/pur1.svg)
 
 
+### pur2
+- Name: OTR Endrail
+- Desc: Straight in shots off endrail.
+- Score: num_shots
+- Source: Self
+- Date: 2023/08/24
+- Image: <br><br>![pur2](./drill/stroke/pur/pur2.svg)
+
+
+### pur3
+- Name: OTR Corners
+- Desc: Straight in siderail shots into corner pockets.
+- Score: num_shots
+- Source: Self
+- Date: 2023/08/24
+- Image: <br><br>![pur3](./drill/stroke/pur/pur3.svg)
+
+
+### pur4
+- Name: OTR Sides
+- Desc: Straight in siderail shots into side pockets.
+- Score: num_shots
+- Source: Self
+- Date: 2023/08/24
+- Image: <br><br>![pur4](./drill/stroke/pur/pur4.svg)
+
+
 
 ## `spd` Speed
 ### spd1
