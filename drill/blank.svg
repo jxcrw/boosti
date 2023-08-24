@@ -5,7 +5,7 @@
    viewBox="0 0 2895.6001 1625.6001"
    version="1.1"
    id="svg8"
-   sodipodi:docname="blank.svg"
+   sodipodi:docname="blank2.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -1759,16 +1759,16 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#272822"
+     pagecolor="#2e2f29"
      bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.25098039"
+     borderopacity="0"
+     inkscape:pageopacity="0.34901961"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.15379573"
-     inkscape:cx="4466.964"
-     inkscape:cy="4076.8361"
+     inkscape:zoom="0.22226134"
+     inkscape:cx="5367.5552"
+     inkscape:cy="4260.75"
      inkscape:document-units="in"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showborder="true"
      inkscape:window-width="3840"
@@ -1780,7 +1780,7 @@
      units="mm"
      inkscape:showpageshadow="0"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#272822" />
+     inkscape:deskcolor="#2e2f29" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -4336,22 +4336,6 @@
          cy="-2757.5132"
          r="3.5718751" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.0972px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#fa7aa9;stroke:none;stroke-width:0.79375;-inkscape-stroke:none;stop-color:#000000"
-       x="1450.3621"
-       y="796.10187"
-       id="text19658"><tspan
-         sodipodi:role="line"
-         id="tspan19656"
-         style="font-size:44.0972px;fill:#272822;stroke-width:0.793749"
-         x="1450.3621"
-         y="796.10187">Description of exercise.</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:44.0972px;fill:#272822;stroke-width:0.793749"
-         x="1450.3621"
-         y="851.22339"
-         id="tspan24435">scoretype</tspan></text>
     <g
        id="g11641"
        transform="translate(-98.984596,-49.020901)">
