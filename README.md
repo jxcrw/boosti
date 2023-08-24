@@ -56,25 +56,25 @@
 
 ### pur2
 - Name: OTR Endrail
-- Desc: Straight in shots off endrail.
+- Desc: Straight in shots off end rail.
 - Score: num_shots
-- Source: Self
+- Source: Margaret Fefilova
 - Date: 2023/08/24
 - Image: <br><br>![pur2](./drill/stroke/pur/pur2.svg)
 
 
 ### pur3
 - Name: OTR Corners
-- Desc: Straight in siderail shots into corner pockets.
+- Desc: Straight in shots off side rails into corner pockets.
 - Score: num_shots
-- Source: Self
+- Source: IPAT2
 - Date: 2023/08/24
 - Image: <br><br>![pur3](./drill/stroke/pur/pur3.svg)
 
 
 ### pur4
 - Name: OTR Sides
-- Desc: Straight in siderail shots into side pockets.
+- Desc: Straight in shots off side rails into side pockets.
 - Score: num_shots
 - Source: Self
 - Date: 2023/08/24
