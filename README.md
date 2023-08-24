@@ -78,8 +78,7 @@
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
-
-![big1](./drill/core/psn/big1.svg)
+- Image: <br><br>![big1](./drill/core/psn/big1.svg)
 
 
 ### big2
@@ -88,8 +87,7 @@
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
-
-![big2](./drill/core/psn/big2.svg)
+- Image: <br><br>![big2](./drill/core/psn/big2.svg)
 
 
 ### big3
@@ -98,8 +96,7 @@
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
-
-![big3](./drill/core/psn/big3.svg)
+- Image: <br><br> ![big3](./drill/core/psn/big3.svg)
 
 
 ### lil1
@@ -108,8 +105,7 @@
 - Score: first|max
 - Source: IPAT2
 - Added: 2023/08/16
-
-![lil1](./drill/core/psn/lil1.svg)
+- Image: <br><br>![lil1](./drill/core/psn/lil1.svg)
 
 
 
@@ -119,8 +115,7 @@
 - Score: first|max
 - Source: IPAT2
 - Added: 2023/08/16
-
-![lil2](./drill/core/psn/lil2.svg)
+- Image: <br><br>![lil2](./drill/core/psn/lil2.svg)
 
 
 
@@ -140,8 +135,7 @@
 - Source: Self
 - Added: 2023/08/16
 - Notes: Previously SMK001, added 2023/02/06.
-
-![drn1](./drill/core/drn/drn1.svg)
+- Image: <br><br> ![drn1](./drill/core/drn/drn1.svg)
 
 
 
