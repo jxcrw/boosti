@@ -81,6 +81,33 @@
 - Image: <br><br>![pur4](./drill/stroke/pur/pur4.svg)
 
 
+### pur5
+- Name: MightyX Stop
+- Desc: Stop dead.
+- Score: first|max
+- Source: Niels Feijen
+- Date: 2023/08/29
+- Image: <br><br>![pur5](./drill/stroke/pur/pur5.svg)
+
+
+### pur6
+- Name: Center Stop
+- Desc: Stop dead.
+- Score: first|max
+- Source: Self
+- Date: 2023/08/29
+- Image: <br><br>![pur6](./drill/stroke/pur/pur6.svg)
+
+
+### pur7
+- Name: MightyX Stun
+- Desc: Stun forward towards pocket.
+- Score: first|max
+- Source: Self
+- Date: 2023/08/29
+- Image: <br><br>![pur7](./drill/stroke/pur/pur7.svg)
+
+
 
 ## `spd` Speed
 ### spd1
