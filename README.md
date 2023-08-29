@@ -108,6 +108,15 @@
 - Image: <br><br>![pur7](./drill/stroke/pur/pur7.svg)
 
 
+### pur8
+- Name: Pure Draw 1.5
+- Desc: Straight draw back to end rail.
+- Score: num_shots
+- Source: IPAT1/2
+- Date: 2023/08/29
+- Image: <br><br>![pur8](./drill/stroke/pur/pur8.svg)
+
+<!-- ───────────────────────────────────────────────────────────────────────────── -->
 
 ## `spd` Speed
 ### spd1
@@ -119,10 +128,26 @@
 - Image: <br><br>![spd1](./drill/stroke/spd/spd1.svg)
 
 
+### spd2
+- Name: Touch of Draw 1
+- Desc: Straight draw, must pass prev shot and overlap 3-ball region beyond.
+- Score: num_shots
+- Source: Self
+- Date: 2023/08/29
+- Image: <br><br>![spd2](./drill/stroke/spd/spd2.svg)
+
+<!-- ───────────────────────────────────────────────────────────────────────────── -->
 
 ## `pwr` Power
+### pwr1
+- Name: MightyX Draw
+- Desc: Straight draw back to end rail.
+- Score: num_shots
+- Source: Self
+- Date: 2023/08/29
+- Image: <br><br>![pwr1](./drill/stroke/pwr/pwr1.svg)
 
-
+<!-- ───────────────────────────────────────────────────────────────────────────── -->
 
 # Core
 ## `psn` Position
@@ -171,14 +196,11 @@
 - Added: 2023/08/16
 - Image: <br><br>![lil2](./drill/core/psn/lil2.svg)
 
-
-
-
-
+<!-- ───────────────────────────────────────────────────────────────────────────── -->
 
 ## `smk` Shotmaking
 
-
+<!-- ───────────────────────────────────────────────────────────────────────────── -->
 
 ## `drn` Direction
 ### drn1
@@ -191,13 +213,13 @@
 - Notes: Previously SMK001, added 2023/02/06.
 - Image: <br><br> ![drn1](./drill/core/drn/drn1.svg)
 
-
-
-
-
+<!-- ───────────────────────────────────────────────────────────────────────────── -->
 
 # Special
 ## `bnk` Banks
+
+<!-- ───────────────────────────────────────────────────────────────────────────── -->
+
 ## `kik` Kicks
 ### KIK001
 - Desc: Kick each OB one rail.
@@ -207,7 +229,7 @@
 
 ![KIK001](./drill/KIK001.svg)
 
-
+<!-- ───────────────────────────────────────────────────────────────────────────── -->
 
 ## `sft` Safeties
 ### SFT001
@@ -218,7 +240,7 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 ## `brk` Breaks
 ## `jmp` Jumps
 
-
+<!-- ───────────────────────────────────────────────────────────────────────────── -->
 
 # Work in Progress
 ### SMK002
