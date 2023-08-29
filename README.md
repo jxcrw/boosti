@@ -178,6 +178,16 @@
 - Image: <br><br> ![big3](./drill/core/psn/big3.svg)
 
 
+### big4
+- Name: D_Longcuts
+- Desc: Dynamic endless longcuts.
+- Script: [big4.py](./src/big4.py)
+- Score: first|max
+- Source: Self
+- Added: 2023/08/29
+- Image: <br><br> ![big4](./drill/core/psn/big4.svg)
+
+
 ### lil1
 - Name: L Drill
 - Desc: Endless small cutshots.
