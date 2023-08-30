@@ -40,7 +40,7 @@
 - Score:
 - Date:
 - Source:
-- Image: <br><br>![img](./drill/blank.svg) -->
+- Image: <br><br>![img](./_img/table.svg) -->
 
 
 # Stroke
