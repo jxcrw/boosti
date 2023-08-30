@@ -237,7 +237,7 @@
 - Source: [Billiard University Exam 2](https://billiarduniversity.org/testing/exams/)
 - Added: 2023/02/09
 
-![KIK001](./drill/KIK001.svg)
+![KIK001](./drill/_wip/KIK001.svg)
 
 <!-- ───────────────────────────────────────────────────────────────────────────── -->
 
@@ -245,7 +245,7 @@
 ### SFT001
 Billiard University Exam 2 Safeties Drill (2023/02/08)
 
-![SFT001](./drill/SFT001.svg)
+![SFT001](./drill/_wip/SFT001.svg)
 
 ## `brk` Breaks
 ## `jmp` Jumps
@@ -259,7 +259,7 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Source: Self
 - Added: 2023/02/07
 
-![SMK002](./drill/SMK002.svg)
+![SMK002](./drill/_wip/SMK002.svg)
 
 
 ### SMK003
@@ -269,7 +269,7 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Added: 2023/02/09
 - Notes: Tends to be overcut.
 
-![SMK003](./drill/SMK003.svg)
+![SMK003](./drill/_wip/SMK003.svg)
 
 
 ### SMK004
@@ -278,7 +278,7 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Source: Self
 - Added: 2023/02/13
 
-![SMK004](./drill/SMK004.svg)
+![SMK004](./drill/_wip/SMK004.svg)
 
 
 ### SMK005
@@ -287,7 +287,7 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Source: Self
 - Added: 2023/03/04
 
-![SMK005](./drill/SMK005.svg)
+![SMK005](./drill/_wip/SMK005.svg)
 
 
 ### SMK006
@@ -297,7 +297,7 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Added: 2023/03/05
 - Notes: Tends to be overcut.
 
-![SMK006](./drill/SMK006.svg)
+![SMK006](./drill/_wip/SMK006.svg)
 
 
 ### SMK007
@@ -306,7 +306,7 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Source: Self
 - Added: 2023/04/02
 
-![SMK007](./drill/SMK007.svg)
+![SMK007](./drill/_wip/SMK007.svg)
 
 
 ### SMK008
@@ -316,7 +316,7 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Added: 2023/06/18
 - Notes: Tends to be overcut.
 
-![SMK008](./drill/SMK008.svg)
+![SMK008](./drill/_wip/SMK008.svg)
 
 
 ### SMK009
@@ -326,4 +326,4 @@ Billiard University Exam 2 Safeties Drill (2023/02/08)
 - Added: 2023/06/18
 - Notes: Tends to be overcut.
 
-![SMK009](./drill/SMK009.svg)
+![SMK009](./drill/_wip/SMK009.svg)
