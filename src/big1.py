@@ -2,27 +2,33 @@
 """big1 drill"""
 
 import random
-from utils import *
+from table import Table
 
-table_ref = Image.open(r"..\_img\table.png")
-table_dyn = Image.open(r"..\_img\table.png")
+
+# ┌─────────────────────────────────────────────────────────────────────────────
+# │ Setup
+# └─────────────────────────────────────────────────────────────────────────────
+table_ref = Table()
+table_dyn = Table()
+
 
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Reference
 # └─────────────────────────────────────────────────────────────────────────────
-table_ref.paste(ball_7g, d2p(-2.5, 0), mask=ball_7g)
-table_ref.paste(ball_7, d2p(-2, 0), mask=ball_7)
-table_ref.paste(ball_7g, d2p(-1.5, 0), mask=ball_7g)
+table_ref.add_ball('b7', (-2, 0))
+table_ref.add_ball('b7g', (-2.5, 0))
+table_ref.add_ball('b7g', (-1.5, 0))
 
-table_ref.paste(ball_8g, d2p(2.5, 0), mask=ball_8g)
-table_ref.paste(ball_8, d2p(2, 0), mask=ball_8)
-table_ref.paste(ball_8g, d2p(1.5, 0), mask=ball_8g)
+table_ref.add_ball('b8', (2, 0))
+table_ref.add_ball('b8g', (2.5, 0))
+table_ref.add_ball('b8g', (1.5, 0))
 
-table_ref.paste(ball_9g, d2p(-0.5, 0), mask=ball_9g)
-table_ref.paste(ball_9, d2p(0, 0), mask=ball_9)
-table_ref.paste(ball_9g, d2p(0.5, 0), mask=ball_9g)
+table_ref.add_ball('b9', (0, 0))
+table_ref.add_ball('b9g', (-0.5, 0))
+table_ref.add_ball('b9g', (0.5, 0))
 
 table_ref.show()
+
 
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Dynamic
@@ -31,8 +37,8 @@ range_7 = [-2.5, -2, -1.5]
 range_8 = [1.5, 2, 2.5]
 range_9 = [-0.5, 0, 0.5]
 
-table_dyn.paste(ball_7, d2p(random.choice(range_7), 0), mask=ball_7)
-table_dyn.paste(ball_8, d2p(random.choice(range_8), 0), mask=ball_8)
-table_dyn.paste(ball_9, d2p(random.choice(range_9), 0), mask=ball_9)
+table_dyn.add_ball('b7', (random.choice(range_7), 0))
+table_dyn.add_ball('b8', (random.choice(range_8), 0))
+table_dyn.add_ball('b9', (random.choice(range_9), 0))
 
 table_dyn.show()
