@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """big1 drill"""
 
-from table import Table
+from lib.table import Table
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────

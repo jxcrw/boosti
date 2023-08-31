@@ -2,7 +2,7 @@
 """Pool table"""
 
 import random
-from utils import BALLS, TABLE, diamond2pixel
+from lib.utils import BALLS, TABLE, diamond2pixel
 
 
 class Table:
