@@ -10,9 +10,15 @@ class Table:
         self.table = TABLE.copy()
 
     def add_ball(self, ball: str, pos: (float, float)) -> None:
-        """Add a ball to the table at a given position (in diamonds)."""
+        """Add a ball to the table at a given position."""
         ball_img = BALLS[ball]
         self.table.paste(ball_img, d2p(*pos), mask=ball_img)
+
+    def add_balls(self, balls: dict[str, list]) -> None:
+        """Add multiple balls to the table at the given positions."""
+        for ball, positions in balls.items():
+            for pos in positions:
+                self.add_ball(ball, pos)
 
     def show(self) -> None:
         """Display the table."""
