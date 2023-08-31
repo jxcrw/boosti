@@ -42,7 +42,7 @@ class Table:
     def save(self, path: str) -> None:
         """Render the table to the appropriate output directory based on the given path."""
         path = path.replace(r'.py', r'.png')
-        path = path.replace(r'drill', r'_img/drills')
+        path = path.replace(r'drill', r'_img/drill')
         self.table.save(path)
         print(Path(path))
 

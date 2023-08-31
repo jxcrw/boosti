@@ -40,7 +40,7 @@
 - Score:
 - Date:
 - Source:
-- Image: <br><br>![img](./_img/table.svg) -->
+- Image: <br><br>![img](./_img/table/table.svg) -->
 
 
 # Stroke
@@ -51,7 +51,7 @@
 - Score: num_shots
 - Source: IPAT1
 - Date: 2023/02/01
-- Image: <br><br>![pur1](./drill/stroke/pur/pur1.svg)
+- Image: <br><br>![pur1](./_img/drill/stroke/pur/pur1.png)
 
 
 ### pur2
@@ -60,7 +60,7 @@
 - Score: num_shots
 - Source: Margaret Fefilova
 - Date: 2023/08/24
-- Image: <br><br>![pur2](./drill/stroke/pur/pur2.svg)
+- Image: <br><br>![pur2](./_img/drill/stroke/pur/pur2.png)
 
 
 ### pur3
@@ -69,7 +69,7 @@
 - Score: num_shots
 - Source: IPAT2
 - Date: 2023/08/24
-- Image: <br><br>![pur3](./drill/stroke/pur/pur3.svg)
+- Image: <br><br>![pur3](./_img/drill/stroke/pur/pur3.png)
 
 
 ### pur4
@@ -78,7 +78,7 @@
 - Score: num_shots
 - Source: Self
 - Date: 2023/08/24
-- Image: <br><br>![pur4](./drill/stroke/pur/pur4.svg)
+- Image: <br><br>![pur4](./_img/drill/stroke/pur/pur4.png)
 
 
 ### pur5
@@ -87,7 +87,7 @@
 - Score: first|max
 - Source: Niels Feijen
 - Date: 2023/08/29
-- Image: <br><br>![pur5](./drill/stroke/pur/pur5.svg)
+- Image: <br><br>![pur5](./_img/drill/stroke/pur/pur5.png)
 
 
 ### pur6
@@ -96,7 +96,7 @@
 - Score: first|max
 - Source: Self
 - Date: 2023/08/29
-- Image: <br><br>![pur6](./drill/stroke/pur/pur6.svg)
+- Image: <br><br>![pur6](./_img/drill/stroke/pur/pur6.png)
 
 
 ### pur7
@@ -105,7 +105,7 @@
 - Score: first|max
 - Source: Self
 - Date: 2023/08/29
-- Image: <br><br>![pur7](./drill/stroke/pur/pur7.svg)
+- Image: <br><br>![pur7](./_img/drill/stroke/pur/pur7.png)
 
 
 ### pur8
@@ -114,7 +114,7 @@
 - Score: num_shots
 - Source: IPAT1/2
 - Date: 2023/08/29
-- Image: <br><br>![pur8](./drill/stroke/pur/pur8.svg)
+- Image: <br><br>![pur8](./_img/drill/stroke/pur/pur8.png)
 
 <!-- ───────────────────────────────────────────────────────────────────────────── -->
 
@@ -125,7 +125,7 @@
 - Score: num_shots
 - Source: Self
 - Date: 2023/08/23
-- Image: <br><br>![spd1](./drill/stroke/spd/spd1.svg)
+- Image: <br><br>![spd1](./_img/drill/stroke/spd/spd1.png)
 
 
 ### spd2
@@ -134,7 +134,7 @@
 - Score: num_shots
 - Source: Self
 - Date: 2023/08/29
-- Image: <br><br>![spd2](./drill/stroke/spd/spd2.svg)
+- Image: <br><br>![spd2](./_img/drill/stroke/spd/spd2.png)
 
 <!-- ───────────────────────────────────────────────────────────────────────────── -->
 
@@ -145,7 +145,7 @@
 - Score: num_shots
 - Source: Self
 - Date: 2023/08/29
-- Image: <br><br>![pwr1](./drill/stroke/pwr/pwr1.svg)
+- Image: <br><br>![pwr1](./_img/drill/stroke/pwr/pwr1.png)
 
 <!-- ───────────────────────────────────────────────────────────────────────────── -->
 
@@ -157,8 +157,7 @@
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
-- Image: <br><br>![big1](./drill/core/psn/big1.svg)
-- Image: <br><br>![big1](./drill/core/psn/big1_new.svg)
+- Image: <br><br>![big1](./_img/drill/core/psn/big1.png)
 
 
 ### big2
@@ -167,7 +166,7 @@
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
-- Image: <br><br>![big2](./drill/core/psn/big2.svg)
+- Image: <br><br>![big2](./_img/drill/core/psn/big2.png)
 
 
 ### big3
@@ -176,7 +175,7 @@
 - Score: first|max
 - Source: IPAT1
 - Added: 2023/08/16
-- Image: <br><br> ![big3](./drill/core/psn/big3.svg)
+- Image: <br><br> ![big3](./_img/drill/core/psn/big3.png)
 
 
 ### big4
@@ -186,7 +185,7 @@
 - Score: first|max
 - Source: Self
 - Added: 2023/08/29
-- Image: <br><br> ![big4](./drill/core/psn/big4.svg)
+- Image: <br><br> ![big4](./_img/drill/core/psn/big4.png)
 
 
 ### lil1
@@ -195,7 +194,7 @@
 - Score: first|max
 - Source: IPAT2
 - Added: 2023/08/16
-- Image: <br><br>![lil1](./drill/core/psn/lil1.svg)
+- Image: <br><br>![lil1](./_img/drill/core/psn/lil1.png)
 
 
 
@@ -205,7 +204,7 @@
 - Score: first|max
 - Source: IPAT2
 - Added: 2023/08/16
-- Image: <br><br>![lil2](./drill/core/psn/lil2.svg)
+- Image: <br><br>![lil2](./_img/drill/core/psn/lil2.png)
 
 <!-- ───────────────────────────────────────────────────────────────────────────── -->
 
@@ -222,7 +221,7 @@
 - Source: Self
 - Added: 2023/08/16
 - Notes: Previously SMK001, added 2023/02/06.
-- Image: <br><br> ![drn1](./drill/core/drn/drn1.svg)
+- Image: <br><br> ![drn1](./_img/drill/core/drn/drn1.png)
 
 <!-- ───────────────────────────────────────────────────────────────────────────── -->
 
@@ -237,8 +236,7 @@
 - Score: # successful
 - Source: [Billiard University Exam 2](https://billiarduniversity.org/testing/exams/)
 - Added: 2023/02/09
-
-![KIK001](./drill/_wip/KIK001.svg)
+- Image: <br><br> ![kik1](./_img/drill/special/kik/kik1.png)
 
 <!-- ───────────────────────────────────────────────────────────────────────────── -->
 

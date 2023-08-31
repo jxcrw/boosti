@@ -54,12 +54,12 @@ P1Y = 2 - BALL * 3 / 2
 TABLE = Image.open(rf'{DIR_IMG}/table/table.png')
 
 BALLS = {}
-balls_meta = ['cb', 'gb']
+balls_meta = ['cb', 'gb', 'cbg', 'gbg']
 balls_object = [f'b{num}' for num in range(1, 16)]
 balls_ghost = [f'b{num}g' for num in range(1, 16)]
 balls_all = balls_meta + balls_object + balls_ghost
 for ball in balls_all:
-    BALLS[ball] = Image.open(rf'{DIR_IMG}/balls/{ball}.png')
+    BALLS[ball] = Image.open(rf'{DIR_IMG}/ball/{ball}.png')
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────
