@@ -1,25 +1,26 @@
 #!/usr/bin/env python3
 """Pool table"""
 
-from PIL import Image
-
-from utils import d2p, BALLS
+from utils import d2p, BALLS, TABLE
 
 
 class Table:
     """A pool table."""
     def __init__(self):
-        # Load up images.
-        self.table = Image.open(r'..\_img\table.png')
-        self.balls = BALLS
+        self.table = TABLE.copy()
 
     def add_ball(self, ball: str, pos: (float, float)) -> None:
         """Add a ball to the table at a given position (in diamonds)."""
-        ball = self.balls[ball]
-        self.table.paste(ball, d2p(*pos), mask=ball)
+        ball_img = BALLS[ball]
+        self.table.paste(ball_img, d2p(*pos), mask=ball_img)
 
     def show(self) -> None:
+        """Display the table."""
         self.table.show()
+
+    def save(self, path: str) -> None:
+        """Save the table to the given path."""
+        self.table.save(path)
 
 
 if __name__ == '__main__':

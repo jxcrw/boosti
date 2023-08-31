@@ -19,8 +19,10 @@ DIAMOND_PX = DIAMOND_INCH * DPI
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────
-# │ Ball Images
+# │ Images
 # └─────────────────────────────────────────────────────────────────────────────
+TABLE = Image.open(r'..\_img\table.png')
+
 BALLS = {}
 balls_meta = ['cb', 'gb']
 balls_object = [f'b{num}' for num in range(1, 16)]
