@@ -6,16 +6,19 @@ from PIL import Image
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Table Dimensions
 # └─────────────────────────────────────────────────────────────────────────────
+# Dimensions in inches
 BALL_INCH = 2.25
 DIAMOND_INCH = 12.5
 RAIL_WIDTH_INCH = 7
 SURFACE_WIDTH_INCH = 100
 SURFACE_HEIGHT_INCH = 50
 
+# Dimensions in pixels
 DPI = 96
-OFFSET_OUTLINE_PX = 5
-OFFSET_ORIGIN_PX = (RAIL_WIDTH_INCH - BALL_INCH / 2) * DPI
-DIAMOND_PX = DIAMOND_INCH * DPI
+PX_PER_DIAMOND = DIAMOND_INCH * DPI
+OFFSET_RAIL_PX = (RAIL_WIDTH_INCH - BALL_INCH / 2) * DPI
+OFFSET_ORIGIN_X_PX = OFFSET_RAIL_PX + PX_PER_DIAMOND * 4
+OFFSET_ORIGIN_Y_PX = OFFSET_RAIL_PX + PX_PER_DIAMOND * 2
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────
@@ -35,8 +38,8 @@ for ball in balls_all:
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Helper Functions
 # └─────────────────────────────────────────────────────────────────────────────
-def d2p(diamonds_x: float, diamonds_y: float) -> (int, int):
+def diamond2pixel(xd: float, yd: float) -> (int, int):
     """Convert diamond units to pixels."""
-    pixels_x = OFFSET_ORIGIN_PX + DIAMOND_PX * 4 + diamonds_x * DIAMOND_PX
-    pixels_y = OFFSET_ORIGIN_PX + DIAMOND_PX * 2 + -diamonds_y * DIAMOND_PX
-    return int(pixels_x), int(pixels_y)
+    xp = OFFSET_ORIGIN_X_PX + xd * PX_PER_DIAMOND
+    yp = OFFSET_ORIGIN_Y_PX + -yd * PX_PER_DIAMOND
+    return int(xp), int(yp)

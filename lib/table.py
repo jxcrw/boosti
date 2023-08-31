@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Pool table"""
 
-from utils import d2p, BALLS, TABLE
+from utils import BALLS, TABLE, diamond2pixel
 
 
 class Table:
@@ -11,8 +11,9 @@ class Table:
 
     def add_ball(self, ball: str, pos: (float, float)) -> None:
         """Add a ball to the table at a given position."""
-        ball_img = BALLS[ball]
-        self.table.paste(ball_img, d2p(*pos), mask=ball_img)
+        ball = BALLS[ball]
+        pos_px = diamond2pixel(*pos)
+        self.table.paste(ball, pos_px, mask=ball)
 
     def add_balls(self, balls: dict[str, list]) -> None:
         """Add multiple balls to the table at the given positions."""
