@@ -1,10 +1,19 @@
 #!/usr/bin/env python3
 """Utilities for generating table diagrams"""
 
+import sys
 from PIL import Image
 
 # ┌─────────────────────────────────────────────────────────────────────────────
-# │ Table Dimensions
+# │ Pathing
+# └─────────────────────────────────────────────────────────────────────────────
+DIR_ROOT = sys.path[1]
+DIR_DYN = f'{DIR_ROOT}/_train'
+DIR_IMG = f'{DIR_ROOT}/_img'
+
+
+# ┌─────────────────────────────────────────────────────────────────────────────
+# │ Dimensions
 # └─────────────────────────────────────────────────────────────────────────────
 # Dimensions in inches
 BALL_INCH = 2.25
@@ -24,7 +33,7 @@ OFFSET_ORIGIN_Y_PX = OFFSET_RAIL_PX + PX_PER_DIAMOND * 2
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Images
 # └─────────────────────────────────────────────────────────────────────────────
-TABLE = Image.open(r'..\_img\table\table.png')
+TABLE = Image.open(rf'{DIR_IMG}/table/table.png')
 
 BALLS = {}
 balls_meta = ['cb', 'gb']
@@ -32,7 +41,7 @@ balls_object = [f'b{num}' for num in range(1, 16)]
 balls_ghost = [f'b{num}g' for num in range(1, 16)]
 balls_all = balls_meta + balls_object + balls_ghost
 for ball in balls_all:
-    BALLS[ball] = Image.open(rf'..\_img\balls\{ball}.png')
+    BALLS[ball] = Image.open(rf'{DIR_IMG}/balls/{ball}.png')
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────

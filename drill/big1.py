@@ -23,7 +23,7 @@ balls = {
     'b9g': [(-0.5, 0), (0.5, 0)],
 }
 table_std.add_balls(balls)
-table_std.show()
+table_std.save(__file__)
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────
@@ -35,4 +35,4 @@ dyn_balls = {
     'b9': ([-0.5, 0, 0.5], [0]),
 }
 table_dyn.add_dyn_balls(dyn_balls)
-table_dyn.show()
+table_dyn.save_dyn(__file__)
