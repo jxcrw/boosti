@@ -34,18 +34,18 @@ BALL = BALL_INCH / DIAMOND_INCH
 HBALL = BALL / 2
 
 # Common ball positions
-NFX = -4 + HBALL
 PFX = 4 - HBALL
-NFY = -2 + HBALL
+NFX = -PFX
 PFY = 2 - HBALL
-NHX = -4 + BALL
+NFY = -PFY
 PHX = 4 - BALL
-NHY = -2 + BALL
+NHX = -PHX
 PHY = 2 - BALL
-N1X = -4 + BALL * 3 / 2
+NHY = -PHY
 P1X = 4 - BALL * 3 / 2
-N1Y = -2 + BALL * 3 / 2
+N1X = -P1X
 P1Y = 2 - BALL * 3 / 2
+N1Y = -P1Y
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────
