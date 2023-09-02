@@ -21,10 +21,14 @@ CORES = max((mp.cpu_count() - CORES_RESERVED), 1)
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Pathing
 # └─────────────────────────────────────────────────────────────────────────────
-DIR_ROOT = sys.path[1]
-DIR_IMG = f'{DIR_ROOT}/_img'
-DIR_DYN = f'{DIR_ROOT}/_train'
-DIR_DRILL = f'{DIR_ROOT}/drill'
+DIR_ROOT = Path(sys.path[1])
+DIR_DRILL = DIR_ROOT / 'drill'
+DIR_DYN = DIR_ROOT / '_train'
+DIR_IMG = DIR_ROOT / '_img'
+DIR_IMG_DRILL = DIR_IMG / 'drill'
+DIR_IMG_TABLE = DIR_IMG / 'table'
+DIR_IMG_BALLS = DIR_IMG / 'ball'
+
 DRILLS = []
 for root, dirs, files in os.walk(DIR_DRILL):
     files = [f'{root}/{f}' for f in files if '.py' in f]
@@ -70,7 +74,7 @@ N1Y = -P1Y
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Images
 # └─────────────────────────────────────────────────────────────────────────────
-IMG_TABLE = Image.open(rf'{DIR_IMG}/table/table.png')
+IMG_TABLE = Image.open(DIR_IMG_TABLE / 'table.png')
 
 IMG_BALLS = {}
 balls_meta = ['cb', 'gb', 'cbg', 'gbg']
@@ -78,7 +82,7 @@ balls_object = [f'b{num}' for num in range(1, 16)]
 balls_ghost = [f'b{num}g' for num in range(1, 16)]
 balls_all = balls_meta + balls_object + balls_ghost
 for ball in balls_all:
-    IMG_BALLS[ball] = Image.open(rf'{DIR_IMG}/ball/{ball}.png')
+    IMG_BALLS[ball] = Image.open(DIR_IMG_BALLS / f'{ball}.png')
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────
@@ -95,6 +99,7 @@ def diamond2pixel(pos: tuple[float, float]) -> tuple[int, int]:
 def render_drill(path: str) -> None:
     """Render the drill with the given path."""
     subprocess.call(path, shell=True)
+
 
 def render_all_drills() -> None:
     """Render all drills (in parallel)."""

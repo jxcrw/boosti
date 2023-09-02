@@ -35,4 +35,4 @@ dyn_balls = {
     'b9': [[-0.5, 0, 0.5], [0]],
 }
 table_dyn.add_dyn_balls(dyn_balls)
-table_dyn.save_dyn(__file__)
+table_dyn.save(__file__, is_dyn=True)

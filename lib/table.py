@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Pool table"""
 
-from pathlib import Path
 import random
 
-from lib.utils import DIR_DYN, IMG_BALLS, IMG_TABLE, diamond2pixel
+from lib.utils import DIR_DRILL, DIR_DYN, DIR_IMG_DRILL, IMG_BALLS, IMG_TABLE, diamond2pixel
 
 
 class Table:
@@ -35,17 +34,13 @@ class Table:
         for dyn_ball, choices in dyn_balls.items():
             self.add_dyn_ball(dyn_ball, *choices)
 
-    def save(self, path: str) -> None:
+    def save(self, path: str, is_dyn: bool = False) -> None:
         """Render the table to the appropriate output directory based on the given path."""
-        path = path.replace(r'.py', r'.png')
-        path = path.replace(r'drill', r'_img/drill')
+        dir_out = DIR_DYN if is_dyn else DIR_IMG_DRILL
+        path = path.replace(str(DIR_DRILL), str(dir_out))
+        path = path.replace('.py', '.png')
         self.table.save(path)
-
-    def save_dyn(self, path: str) -> None:
-        """Render the table to the dynamic directory based on the given path."""
-        name = Path(path).stem
-        path = f'{DIR_DYN}/{name}_dyn.png'
-        self.table.save(path)
+        print(path)
 
     def show(self) -> None:
         """Display the table."""
