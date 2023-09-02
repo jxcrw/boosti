@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 """Utilities for generating table diagrams"""
 
+import multiprocessing as mp
 import os
-from pathlib import Path
 import subprocess
 import sys
+import time
 
 from PIL import Image
+
+# ┌─────────────────────────────────────────────────────────────────────────────
+# │ Performance
+# └─────────────────────────────────────────────────────────────────────────────
+RESERVED_CORES = 2
+CORES = max((mp.cpu_count() - RESERVED_CORES), 1)
+
 
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Pathing
@@ -15,6 +23,10 @@ DIR_ROOT = sys.path[1]
 DIR_DYN = f'{DIR_ROOT}/_train'
 DIR_IMG = f'{DIR_ROOT}/_img'
 DIR_DRILL = f'{DIR_ROOT}/drill'
+DRILLS = []
+for root, dirs, files in os.walk(DIR_DRILL):
+    files = [f'{root}/{f}' for f in files if '.py' in f]
+    DRILLS.extend(files)
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────
@@ -76,16 +88,18 @@ def diamond2pixel(xd: float, yd: float) -> (int, int):
     yp = OFFSET_ORIGIN_Y_PX + -yd * PX_PER_DIAMOND
     return int(xp), int(yp)
 
-def render_all_drills() -> None:
-    """Render all drills."""
-    drill_files = []
-    for root, dirs, files in os.walk(DIR_DRILL):
-        files = [f'{root}/{f}' for f in files if '.py' in f]
-        drill_files.extend(files)
+def render_drill(path: str) -> None:
+    """Render the drill with the given path."""
+    subprocess.call(path, shell=True)
 
-    for df in drill_files:
-        print(Path(df).stem)
-        subprocess.call(df, shell=True)
+def render_all_drills() -> None:
+    """Render all drills (in parallel)."""
+    print(f"Rendering {len(DRILLS)} drills...")
+    start = time.time()
+    pool = mp.Pool(processes=CORES)
+    pool.map(render_drill, DRILLS)
+    end = time.time()
+    print(f"...finished in {end - start:0.2}s.")
 
 
 if __name__ == '__main__':
