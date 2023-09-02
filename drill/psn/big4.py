@@ -52,10 +52,10 @@ range_x_pos = [0.5 * mag for mag in range(1, 8)]
 range_y_neg = [NHY, -1, -1.5]
 range_y_pos = [1, 1.5, PHY]
 
-top_left = (range_x_neg, range_y_pos)
-top_right = (range_x_pos, range_y_pos)
-btm_left = (range_x_neg, range_y_neg)
-btm_right = (range_x_pos, range_y_neg)
+top_left = [range_x_neg, range_y_pos]
+top_right = [range_x_pos, range_y_pos]
+btm_left = [range_x_neg, range_y_neg]
+btm_right = [range_x_pos, range_y_neg]
 
 dyn_balls = {
     balls[0]: top_left,

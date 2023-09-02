@@ -4,19 +4,19 @@
 from pathlib import Path
 import random
 
-from lib.utils import BALLS, DIR_DYN, TABLE, diamond2pixel
+from lib.utils import DIR_DYN, IMG_BALLS, IMG_TABLE, diamond2pixel
 
 
 class Table:
     """A pool table."""
     def __init__(self):
-        self.table = TABLE.copy()
+        self.table = IMG_TABLE.copy()
 
-    def add_ball(self, ball: str, pos: (float, float)) -> None:
+    def add_ball(self, ball: str, pos: tuple[float, float]) -> None:
         """Add a ball at the given position."""
-        ball = BALLS[ball]
-        pos_px = diamond2pixel(*pos)
-        self.table.paste(ball, pos_px, mask=ball)
+        ball_img = IMG_BALLS[ball]
+        pos_px = diamond2pixel(pos)
+        self.table.paste(ball_img, pos_px, mask=ball_img)
 
     def add_balls(self, balls: dict[str, list]) -> None:
         """Add multiple balls at the given positions."""
@@ -30,28 +30,26 @@ class Table:
         y = random.choice(choices_y)
         self.add_ball(dyn_ball, (x, y))
 
-    def add_dyn_balls(self, dyn_balls: dict[str, tuple[list]]) -> None:
+    def add_dyn_balls(self, dyn_balls: dict[str, list]) -> None:
         """Add multiple dynamic balls at random positions."""
         for dyn_ball, choices in dyn_balls.items():
             self.add_dyn_ball(dyn_ball, *choices)
-
-    def show(self) -> None:
-        """Display the table."""
-        self.table.show()
 
     def save(self, path: str) -> None:
         """Render the table to the appropriate output directory based on the given path."""
         path = path.replace(r'.py', r'.png')
         path = path.replace(r'drill', r'_img/drill')
         self.table.save(path)
-        print(Path(path))
 
     def save_dyn(self, path: str) -> None:
         """Render the table to the dynamic directory based on the given path."""
         name = Path(path).stem
         path = f'{DIR_DYN}/{name}_dyn.png'
         self.table.save(path)
-        print(Path(path))
+
+    def show(self) -> None:
+        """Display the table."""
+        self.table.show()
 
 
 if __name__ == '__main__':
