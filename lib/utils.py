@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Utilities for generating table diagrams"""
 
+import os
+from pathlib import Path
+import subprocess
 import sys
+
 from PIL import Image
 
 # ┌─────────────────────────────────────────────────────────────────────────────
@@ -10,6 +14,7 @@ from PIL import Image
 DIR_ROOT = sys.path[1]
 DIR_DYN = f'{DIR_ROOT}/_train'
 DIR_IMG = f'{DIR_ROOT}/_img'
+DIR_DRILL = f'{DIR_ROOT}/drill'
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────
@@ -70,3 +75,18 @@ def diamond2pixel(xd: float, yd: float) -> (int, int):
     xp = OFFSET_ORIGIN_X_PX + xd * PX_PER_DIAMOND
     yp = OFFSET_ORIGIN_Y_PX + -yd * PX_PER_DIAMOND
     return int(xp), int(yp)
+
+def render_all_drills() -> None:
+    """Render all drills."""
+    drill_files = []
+    for root, dirs, files in os.walk(DIR_DRILL):
+        files = [f'{root}/{f}' for f in files if '.py' in f]
+        drill_files.extend(files)
+
+    for df in drill_files:
+        print(Path(df).stem)
+        subprocess.call(df, shell=True)
+
+
+if __name__ == '__main__':
+    render_all_drills()
