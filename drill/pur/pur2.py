@@ -3,6 +3,7 @@
 
 from lib.common import *
 from lib.table import Table
+from lib.utils import space_balls
 
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Setup
@@ -13,18 +14,9 @@ table_std = Table()
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Standard
 # └─────────────────────────────────────────────────────────────────────────────
-balls = {
-    'cb': [(NFX, 0)],
-    'b1': [(-2, P1Y - BALL * 0)],
-    'b3': [(-2, P1Y - BALL * 2)],
-    'b5': [(-2, P1Y - BALL * 4)],
-    'b7': [(-2, P1Y - BALL * 6)],
-    'b9': [(-2, P1Y - BALL * 8)],
-    'b2': [(-2, N1Y + BALL * 0)],
-    'b4': [(-2, N1Y + BALL * 2)],
-    'b6': [(-2, N1Y + BALL * 4)],
-    'b8': [(-2, N1Y + BALL * 6)],
-    'b10': [(-2, N1Y + BALL * 8)],
-}
+balls = {'cb': [(NFX, 0)]} | \
+        space_balls('13579', (-2, P1Y), BALL2, '-y') | \
+        space_balls('2468A', (-2, N1Y), BALL2, '+y')
+
 table_std.add_balls(balls)
 table_std.save(__file__)

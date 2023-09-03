@@ -3,6 +3,7 @@
 
 from lib.common import *
 from lib.table import Table
+from lib.utils import space_balls
 
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Setup
@@ -13,18 +14,9 @@ table_std = Table()
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Standard
 # └─────────────────────────────────────────────────────────────────────────────
-balls = {
-    'cb': [(-3, NFY), (3, NFY)],
-    'b1': [(N1X + BALL * 0, 0)],
-    'b3': [(N1X + BALL * 2, 0)],
-    'b5': [(N1X + BALL * 4, 0)],
-    'b7': [(N1X + BALL * 6, 0)],
-    'b9': [(N1X + BALL * 8, 0)],
-    'b2': [(P1X - BALL * 0, 0)],
-    'b4': [(P1X - BALL * 2, 0)],
-    'b6': [(P1X - BALL * 4, 0)],
-    'b8': [(P1X - BALL * 6, 0)],
-    'b10': [(P1X - BALL * 8, 0)],
-}
+balls = {'cb': [(-3, NFY), (3, NFY)]} | \
+        space_balls('13579', (N1X, 0), BALL2, '+x') | \
+        space_balls('2468A', (P1X, 0), BALL2, '-x')
+
 table_std.add_balls(balls)
 table_std.save(__file__)

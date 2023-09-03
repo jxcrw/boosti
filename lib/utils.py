@@ -78,6 +78,29 @@ def diamond2pixel(pos: tuple[float, float]) -> tuple[int, int]:
     return int(x_px), int(y_px)
 
 
+def space_balls(ballstr: str, anchor: tuple[float, float], interval: float, direction: str) -> dict[str, tuple]:
+    """Space out balls at the given interval starting from an anchor point and moving in the given direction."""
+    balls, anchor_x, anchor_y = str2balls(ballstr), anchor[0], anchor[1]
+    ball_dict = {}
+    for i, ball in enumerate(balls):
+        sign = 1 if direction[0] == '+' else -1
+        space = sign * interval * i
+        if 'x' in direction:
+            x = anchor_x + space
+            y = anchor_y
+        elif 'y' in direction:
+            x = anchor_x
+            y = anchor_y + space
+        ball_dict[ball] = [(x, y)]
+    return ball_dict
+
+
+def str2balls(string: str) -> list[str]:
+    """Convert a ball string a list of individual balls."""
+    balls = [f'b{int(c, 16)}' for c in string]
+    return balls
+
+
 def render_drill(path: str) -> None:
     """Render the drill with the given path."""
     subprocess.call(path, shell=True)

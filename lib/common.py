@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Common game constants"""
 
-from lib.utils import BALL_INCH, DIAMOND_INCH
-
+from lib.utils import BALL_INCH, DIAMOND_INCH, space_balls
 
 # Common widths (in diamonds)
 BALL = BALL_INCH / DIAMOND_INCH
+BALL2 = BALL * 2
 HBALL = BALL / 2
 DIAMOND = 1
 
@@ -24,7 +24,6 @@ NHX = -PHX
 NHY = -PHY
 
 # Common ball groups
-B3579 = ['b3', 'b5', 'b7', 'b9']
-B468A = ['b4', 'b6', 'b8', 'b10']
-B13579 = ['b1', 'b3', 'b5', 'b7', 'b9']
-B2468A = ['b2', 'b4', 'b6', 'b8', 'b10']
+MIGHTY_X = {'cb': [(-2, -1), (2, -1)], 'b1': [(2, 1)], 'b2': [(-2, 1)]} | \
+           space_balls('3579', (1 - BALL, PFY), BALL, '-x') | \
+           space_balls('468A', (-1 + BALL, PFY), BALL, '+x')
