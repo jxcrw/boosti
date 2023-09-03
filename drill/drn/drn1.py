@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Drill"""
 
+from lib.common import *
 from lib.table import Table
-from lib.utils import BALL, HBALL, NFX, PFX, NFY, PFY, NHX, PHX, NHY, PHY, N1X, P1X, N1Y, P1Y
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────

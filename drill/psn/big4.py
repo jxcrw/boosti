@@ -3,8 +3,8 @@
 
 import random
 
+from lib.common import *
 from lib.table import Table
-from lib.utils import BALL, NFX, NHY, PFX, PHY
 
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Setup

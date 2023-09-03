@@ -52,24 +52,6 @@ OFFSET_RAIL_PX = (RAIL_WIDTH_INCH - BALL_INCH / 2) * DPI
 ORIGIN_X_PX = OFFSET_RAIL_PX + PX_PER_DIAMOND * 4
 ORIGIN_Y_PX = OFFSET_RAIL_PX + PX_PER_DIAMOND * 2
 
-# Dimensions in diamonds (standard unit for app)
-BALL = BALL_INCH / DIAMOND_INCH
-HBALL = BALL / 2
-
-# Common ball positions
-PFX = 4 - HBALL
-PFY = 2 - HBALL
-PHX = 4 - BALL
-PHY = 2 - BALL
-P1X = 4 - HBALL * 3
-P1Y = 2 - HBALL * 3
-NFX = -PFX
-NFY = -PFY
-N1X = -P1X
-N1Y = -P1Y
-NHX = -PHX
-NHY = -PHY
-
 
 # ┌─────────────────────────────────────────────────────────────────────────────
 # │ Images
