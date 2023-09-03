@@ -12,13 +12,13 @@ class Table:
         self.table = IMG_TABLE.copy()
 
     def add_ball(self, ball: str, pos: tuple[float, float]) -> None:
-        """Add a ball at the given position."""
+        """Add a ball at an (x, y) position."""
         ball_img = IMG_BALLS[ball]
         pos_px = diamond2pixel(pos)
         self.table.paste(ball_img, pos_px, mask=ball_img)
 
     def add_balls(self, balls: dict[str, list]) -> None:
-        """Add multiple balls at the given positions."""
+        """Add multiple balls at one or more (x, y) positions."""
         for ball, positions in balls.items():
             for pos in positions:
                 self.add_ball(ball, pos)
@@ -35,7 +35,7 @@ class Table:
             self.add_dyn_ball(dyn_ball, *choices)
 
     def save(self, path: str, is_dyn: bool = False) -> None:
-        """Render the table to the appropriate output directory based on the given path."""
+        """Render the table to the appropriate output directory."""
         dir_out = DIR_DYN if is_dyn else DIR_IMG_DRILL
         path = path.replace(str(DIR_DRILL), str(dir_out))
         path = path.replace('.py', '.png')

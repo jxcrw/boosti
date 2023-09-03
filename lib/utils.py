@@ -31,7 +31,7 @@ DIR_IMG_BALLS = DIR_IMG / 'ball'
 
 DRILLS = []
 for root, dirs, files in os.walk(DIR_DRILL):
-    files = [f'{root}/{f}' for f in files if '.py' in f]
+    files = [os.path.join(root, f) for f in files if '.py' in f]
     DRILLS.extend(files)
 
 
@@ -78,8 +78,8 @@ IMG_TABLE = Image.open(DIR_IMG_TABLE / 'table.png')
 
 IMG_BALLS = {}
 balls_meta = ['cb', 'gb', 'cbg', 'gbg']
-balls_object = [f'b{num}' for num in range(1, 16)]
-balls_ghost = [f'b{num}g' for num in range(1, 16)]
+balls_object = [f'b{n}' for n in range(1, 16)]
+balls_ghost = [f'b{n}g' for n in range(1, 16)]
 balls_all = balls_meta + balls_object + balls_ghost
 for ball in balls_all:
     IMG_BALLS[ball] = Image.open(DIR_IMG_BALLS / f'{ball}.png')
