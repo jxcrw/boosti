@@ -58,17 +58,17 @@ HBALL = BALL / 2
 
 # Common ball positions
 PFX = 4 - HBALL
-NFX = -PFX
 PFY = 2 - HBALL
-NFY = -PFY
 PHX = 4 - BALL
-NHX = -PHX
 PHY = 2 - BALL
-NHY = -PHY
-P1X = 4 - BALL * 3 / 2
+P1X = 4 - HBALL * 3
+P1Y = 2 - HBALL * 3
+NFX = -PFX
+NFY = -PFY
 N1X = -P1X
-P1Y = 2 - BALL * 3 / 2
 N1Y = -P1Y
+NHX = -PHX
+NHY = -PHY
 
 
 # ┌─────────────────────────────────────────────────────────────────────────────
